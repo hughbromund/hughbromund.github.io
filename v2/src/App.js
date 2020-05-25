@@ -30,11 +30,11 @@ class App extends Component {
         </div>
         <div className={classes.bodyDiv}>
           <HomePage id="home" />
-          <div id="about">
-            <AboutMe />
-          </div>
           <div id="projects">
             <Projects />
+          </div>
+          <div id="about">
+            <AboutMe />
           </div>
           <div id="contact">
             <ContactMe />

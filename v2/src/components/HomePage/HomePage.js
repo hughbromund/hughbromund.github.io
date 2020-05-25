@@ -41,7 +41,7 @@ export default class HomePage extends Component {
               <TextLoop
                 children={[
                   "build awesome websites",
-                  "go to school at Purdue University",
+                  "go to Purdue University",
                   "compete at hackathons",
                   "teach programming",
                 ]}
