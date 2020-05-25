@@ -10,6 +10,12 @@ export default class AboutMe extends Component {
           <strong>About Me</strong>
           <hr />
         </h1>
+        <div className={classes.inner}>
+          <h2>
+            <strong>
+              <i>Outside of Class</i>
+            </strong>
+          </h2></div>
         <div className={classes.carousel}>
           <h3>
             <strong>Boilermake VII</strong>
