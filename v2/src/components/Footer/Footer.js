@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class Footer extends Component {
   render() {
     return (
-      <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: "center", paddingBottom: "2%" }}>
         Designed and Built with{" "}
         <span role="img" aria-label="love">
           ❤️
