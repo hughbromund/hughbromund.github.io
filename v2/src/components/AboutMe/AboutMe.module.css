@@ -12,3 +12,8 @@
   max-width: 100rem;
   margin: 0 auto;
 }
+.carousel {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}

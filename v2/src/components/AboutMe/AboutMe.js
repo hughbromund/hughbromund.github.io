@@ -1,11 +1,49 @@
 import React, { Component } from "react";
-
+import Carousel from 'react-bootstrap/Carousel'
 import classes from "./AboutMe.module.css";
 
 export default class AboutMe extends Component {
   render() {
     return (
       <div className={classes.wrapper}>
+        <h1 className={classes.title}>
+          <strong>About Me</strong>
+          <hr />
+        </h1>
+        <div className={classes.carousel}>
+          <h3>
+            <strong>Boilermake VII</strong>
+          </h3>
+          <p>
+            I recently had the opportunity to compete at Purdue's largest Hackathon, Boilermake VII. This years theme was Hack Your Adventure, and so
+            our team created the website Adventurous Sloth. The goal of Adventurous Sloth was to allow users to answer a simple set of questions and 
+            then receive a full travel itinerary based upon those choices. Boilermake VII was a great experience for me because of how much new material 
+            I leanred in just 36 hours. I am looking forward to competing in Boilermake VIII next year. 
+          </p>
+        <Carousel interval="5000">
+          <Carousel.Item>
+            <img className="d-block w-100" src={require("../../assets/Boilermake1.JPG")} alt="the Adventurous Sloth Team"/>
+            <Carousel.Caption>
+              <h2>The Adventurous Sloth Team</h2>
+              <p>After competing for 36 hours, our team took home 3rd Place Overall at Boilermake VII</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block w-100" src={require("../../assets/Boilermake2.JPG")} alt="the Adventurous Sloth Demo"/>
+            <Carousel.Caption>
+              <h2>Live Demo of Adventurous Sloth</h2>
+              <p>We were one of only a few teams that were invited to demo our product at the end of the Hackathon</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block w-100" src={require("../../assets/Boilermake3.jpg")} alt="the Adventurous Sloth judging"/>
+            <Carousel.Caption>
+              <h2>Judging for Boilermake VII</h2>
+              
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+        </div>
         <h1 className={classes.title}>
           <strong>Education & Experience</strong>
           <hr />
