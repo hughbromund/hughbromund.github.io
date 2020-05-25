@@ -8,8 +8,8 @@ import { Link, animateScroll as scroll } from "react-scroll";
 // import Form from "react-bootstrap/Form";
 // import Container from "react-bootstrap/Container";
 
-import history from "../../routing/History";
-import { ABOUT_ME, HOME_PATH, PROJECTS } from "../../constants/Constants";
+// import history from "../../routing/History";
+// import { ABOUT_ME, HOME_PATH, PROJECTS } from "../../constants/Constants";
 
 export default class NavigationBar extends Component {
   scrollToTop = () => {

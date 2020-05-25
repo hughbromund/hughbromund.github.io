@@ -60,7 +60,7 @@ export default class AboutMe extends Component {
               </strong>
             </h2>
             <h3>
-              <strong>Summer Intern</strong> // <i>LincLogix</i>
+              <strong>Summer Intern</strong> {'//'} <i>LincLogix</i>
             </h3>
             <div>
               <span style={{ float: "right" }}>
@@ -86,7 +86,7 @@ export default class AboutMe extends Component {
               </p>
             </div>
             <h3>
-              <strong>Teaching Assistant</strong> // <i>Purdue University</i>
+              <strong>Teaching Assistant</strong> {'//'} <i>Purdue University</i>
             </h3>
             <div>
               <span style={{ float: "right" }}>
@@ -110,7 +110,7 @@ export default class AboutMe extends Component {
               </p>
             </div>
             <h3>
-              <strong>Lead Instructor</strong> // <i>iD Tech Camps</i>
+              <strong>Lead Instructor</strong> {'//'} <i>iD Tech Camps</i>
             </h3>
             <div>
               <span style={{ float: "right" }}>
@@ -140,7 +140,7 @@ export default class AboutMe extends Component {
               </p>
             </div>
             <h3>
-              <strong>IT Summer Intern</strong> //{" "}
+              <strong>IT Summer Intern</strong> {'//'}{" "}
               <i>Brebeuf Jesuit Preparatory School</i>
             </h3>
             <div>

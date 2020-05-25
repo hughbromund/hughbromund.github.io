@@ -4,7 +4,7 @@ import TextLoop from "react-text-loop";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import classes from "./HomePage.module.css";

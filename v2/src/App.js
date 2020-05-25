@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.scss";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 // import logo from './logo.svg';
-import Routes from "./routing/Routes";
+// import Routes from "./routing/Routes";
 import HomePage from "./components/HomePage/HomePage";
 import Projects from "./components/Projects/Projects";
 import AboutMe from "./components/AboutMe/AboutMe";
