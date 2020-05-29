@@ -200,7 +200,7 @@ export default class Projects extends Component {
                   </a>
                 </Card.Text>
                 <hr />
-                <Button variant="primary" disabled>
+                <Button variant="primary" disabled hidden>
                   {" "}
                   Check It Out!{" "}
                   <span role="img" aria-label="rocket launch">
