@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.d2aadddf.chunk.css",
-    "main.js": "/static/js/main.4f2502f0.chunk.js",
-    "main.js.map": "/static/js/main.4f2502f0.chunk.js.map",
+    "main.js": "/static/js/main.25d4d542.chunk.js",
+    "main.js.map": "/static/js/main.25d4d542.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.58c4d41b.js",
     "runtime-main.js.map": "/static/js/runtime-main.58c4d41b.js.map",
     "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
     "static/js/2.68f69707.chunk.js": "/static/js/2.68f69707.chunk.js",
     "static/js/2.68f69707.chunk.js.map": "/static/js/2.68f69707.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ac43a711ba98c62453b45f143bf6f321.js": "/precache-manifest.ac43a711ba98c62453b45f143bf6f321.js",
+    "precache-manifest.1eaacaa32b8575dea18ceef9c785fcc7.js": "/precache-manifest.1eaacaa32b8575dea18ceef9c785fcc7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
     "static/css/main.d2aadddf.chunk.css.map": "/static/css/main.d2aadddf.chunk.css.map",
@@ -19,7 +19,7 @@
     "static/media/Boilermake3.jpg": "/static/media/Boilermake3.39737cc6.jpg",
     "static/media/HomePage.module.css": "/static/media/background.8469af58.jpg",
     "static/media/finex_logo.jpg": "/static/media/finex_logo.20f5f96d.jpg",
-    "static/media/hugh.JPG": "/static/media/hugh.a9098b59.JPG",
+    "static/media/hugh.JPG": "/static/media/hugh.7dd215df.JPG",
     "static/media/sloth_logo.jpg": "/static/media/sloth_logo.7424a966.jpg",
     "static/media/starstats.png": "/static/media/starstats.82073242.png"
   },
@@ -28,6 +28,6 @@
     "static/css/2.de424728.chunk.css",
     "static/js/2.68f69707.chunk.js",
     "static/css/main.d2aadddf.chunk.css",
-    "static/js/main.4f2502f0.chunk.js"
+    "static/js/main.25d4d542.chunk.js"
   ]
 }
