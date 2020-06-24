@@ -1,4 +1,5 @@
 .navbar,
 .navbar-default {
   background-color: #a70000;
+  /* background-image: linear-gradient(15deg, #a70000 0%, purple 100%); */
 }
