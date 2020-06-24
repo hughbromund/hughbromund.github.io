@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #121212;
 }
 
 code {
@@ -12,15 +13,16 @@ code {
     monospace;
 }
 hr {
-  background-color: #a70000;
+  background: linear-gradient(15deg, red 0%, purple 100%);
   height: 3px;
   border-radius: 20px;
   border: 0;
 }
-h1 {
-  color: #a70000;
+h1, i {
+  /* color: #a70000; */
+  background: linear-gradient(15deg, red 0%, purple 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-i {
-  color: #a70000;
-}
+
 

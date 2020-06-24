@@ -16,8 +16,8 @@
   /* margin-bottom: 100px; */
 }
 .container {
-  background-color: #ffffff;
-  color: #000000;
+  /* background-color: #ffffff; */
+  color: #ffffff;
   overflow: auto;
   min-height: 100vh;
   max-width: 100%;
