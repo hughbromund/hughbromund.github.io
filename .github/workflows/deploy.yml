@@ -20,5 +20,5 @@ jobs:
       - name: Deploy
         run: |
           npm ci
-          npm deploy
+          npm run deploy
         working-directory: ${{env.frontend}}
