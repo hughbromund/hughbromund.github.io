@@ -4,13 +4,12 @@ on:
     branches:
       - dev
 
-defaults:
-  run:
-    working-directory: ./v2
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./v2
     env:
       frontend: ./v2
     strategy:
