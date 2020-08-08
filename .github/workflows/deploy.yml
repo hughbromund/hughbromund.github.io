@@ -25,8 +25,9 @@ jobs:
         working-directory: ${{env.frontend}}
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
+        working-directory: ${{env.frontend}}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
           publish_branch: master # deploying branch
-        working-directory: ${{env.frontend}}
+
