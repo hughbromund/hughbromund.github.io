@@ -32,6 +32,6 @@ jobs:
         # working-directory: ${{env.frontend}}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./v2/build
           publish_branch: master # deploying branch
 
