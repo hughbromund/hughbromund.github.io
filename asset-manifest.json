@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8e67e34.chunk.css",
+    "main.css": "/static/css/main.0fce5d24.chunk.css",
     "main.js": "/static/js/main.fa2222b8.chunk.js",
     "main.js.map": "/static/js/main.fa2222b8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.58c4d41b.js",
@@ -9,10 +9,10 @@
     "static/js/2.76bda9da.chunk.js": "/static/js/2.76bda9da.chunk.js",
     "static/js/2.76bda9da.chunk.js.map": "/static/js/2.76bda9da.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e9bdad08d4e97f240d16e9c0035431bf.js": "/precache-manifest.e9bdad08d4e97f240d16e9c0035431bf.js",
+    "precache-manifest.f91faba2f3716a4e1996963e6387330f.js": "/precache-manifest.f91faba2f3716a4e1996963e6387330f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
-    "static/css/main.b8e67e34.chunk.css.map": "/static/css/main.b8e67e34.chunk.css.map",
+    "static/css/main.0fce5d24.chunk.css.map": "/static/css/main.0fce5d24.chunk.css.map",
     "static/js/2.76bda9da.chunk.js.LICENSE.txt": "/static/js/2.76bda9da.chunk.js.LICENSE.txt",
     "static/media/Boilermake1.JPG": "/static/media/Boilermake1.696c7abf.JPG",
     "static/media/Boilermake2.JPG": "/static/media/Boilermake2.aa7d9dbb.JPG",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.58c4d41b.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.76bda9da.chunk.js",
-    "static/css/main.b8e67e34.chunk.css",
+    "static/css/main.0fce5d24.chunk.css",
     "static/js/main.fa2222b8.chunk.js"
   ]
 }
