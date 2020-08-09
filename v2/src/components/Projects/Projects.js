@@ -21,7 +21,7 @@ export default class Projects extends Component {
         </h1>
         <div className={classes.cards}>
           <CardColumns>
-            <Card>
+            <Card className={classes.card}>
               <Card.Img
                 variant="top"
                 src={require("../../assets/finex_logo.jpg")}
@@ -132,7 +132,7 @@ export default class Projects extends Component {
                 </span>
               </Card.Footer>
             </Card>
-            <Card>
+            <Card className={classes.card}>
               <Card.Img
                 variant="top"
                 src={require("../../assets/starstats.png")}
@@ -239,7 +239,7 @@ export default class Projects extends Component {
                 </span>
               </Card.Footer>
             </Card>
-            <Card>
+            <Card className={classes.card}>
               <Card.Img
                 variant="top"
                 src={require("../../assets/sloth_logo.jpg")}
