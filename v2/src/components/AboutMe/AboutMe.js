@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import Carousel from "react-bootstrap/Carousel";
+
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import classes from "./AboutMe.module.css";
+
+import ExperienceCard from "../ExperienceCard/ExperienceCard";
 
 export default class AboutMe extends Component {
   render() {
@@ -89,12 +94,14 @@ export default class AboutMe extends Component {
             <strong>Purdue University</strong>
           </h3>
           <div>
-            <span style={{ float: "right" }}>
-              <strong>August 2018 - Present</strong>
-            </span>
-          </div>
-          <div>
-            <h4>Bachelors of Computer Science Honors</h4>
+            <Row>
+              <Col>
+                <h4>Bachelors of Computer Science Honors</h4>
+              </Col>
+              <Col sm={2}>
+                <h4>August 2018 - Present</h4>
+              </Col>
+            </Row>
             <p>
               GPA: 3.72 / 4.00
               <br />
@@ -120,12 +127,75 @@ export default class AboutMe extends Component {
             <h2>
               <strong>
                 <i>Experience </i>
-                <span role="img" aria-label="Necktie">
-                  👔
-                </span>
               </strong>
             </h2>
-            <h3>
+            <br />
+            <Row
+              xs={1}
+              sm={1}
+              md={2}
+              lg={3}
+              xl={3}
+              className={classes.experienceRow}
+            >
+              <Col>
+                <ExperienceCard
+                  company="LincLogix LLC"
+                  position="Software Developer Intern"
+                  location="Indianapolis, IN"
+                  about="Working with the LincLogix Engineering Team for the 2020 summer. Creating applications that help save LincLogix employees time and automate repetitive processes."
+                  dates="May 2020 - Present"
+                  responsibilities={[
+                    "Built data processing and validation tool that automates over 15 hours of work per month with Python",
+                    "Built data aggregation web app that saves 5+ hours of work per week with React, NodeJS, and Express",
+                    "Modernized company website with new responsive design using React (viewable at LincLogix.com)",
+                  ]}
+                />
+              </Col>
+              <Col>
+                <ExperienceCard
+                  company="Purdue University"
+                  location="West Lafayette, IN"
+                  position="Teaching Assistant"
+                  about="Assisted and helped teach 40+ students in the Fundamentals of C class"
+                  dates="Jan. 2020 - May 2020"
+                  responsibilities={[
+                    "Work with students one-on-one to help them with all aspects of the class",
+                    "Grade Code-Standard for student homework submissions",
+                  ]}
+                />
+              </Col>
+              <Col>
+                <ExperienceCard
+                  company="iD Tech Camps"
+                  location="West Lafayette, IN"
+                  position="Lead Instructor"
+                  about="I am the Lead Instructor for iD Camps during the 2019 summer. I worked at Purdue University and University of Alabama Birmingham"
+                  dates="May 2019 - July 2019"
+                  responsibilities={[
+                    "Taught classes focusing on machine learning and artificial intelligence to 100+ students",
+                    "Named the best instructor in the “Teaching”, “Leadership”, and “Organization” categories",
+                    "Monitored Progress of all students and made sure every student completed the curriculum",
+                  ]}
+                />
+              </Col>
+              <Col hidden>
+                <ExperienceCard
+                  company="Brebeuf Jesuit Preparatory School"
+                  location="Indianapolis, IN"
+                  position="IT Summer Intern"
+                  about="I am the summer intern for my high school's IT department"
+                  dates="May 2016 - Aug. 2017"
+                  responsibilities={[
+                    "Help teachers setup and use new technology in the school",
+                    "Run new CAT6 Ethernet cables throughout the building",
+                    "Setup and maintain the Brebeuf Jesuit Maker Space",
+                  ]}
+                />
+              </Col>
+            </Row>
+
+            {/* <h3>
               <strong>Software Developer Intern</strong> {"//"} <i>LincLogix</i>
             </h3>
             <div>
@@ -150,8 +220,8 @@ export default class AboutMe extends Component {
                   </li>
                 </ul>
               </p>
-            </div>
-            <h3>
+            </div> */}
+            {/* <h3>
               <strong>Teaching Assistant</strong> {"//"}{" "}
               <i>Purdue University</i>
             </h3>
@@ -205,8 +275,8 @@ export default class AboutMe extends Component {
                   </li>
                 </ul>
               </p>
-            </div>
-            <h3>
+            </div> */}
+            {/* <h3>
               <strong>IT Summer Intern</strong> {"//"}{" "}
               <i>Brebeuf Jesuit Preparatory School</i>
             </h3>
@@ -229,7 +299,7 @@ export default class AboutMe extends Component {
                   <li>Setup and maintain the Brebeuf Jesuit Maker Space</li>
                 </ul>
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
