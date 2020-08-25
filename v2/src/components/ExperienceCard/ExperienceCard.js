@@ -12,7 +12,7 @@ export default class ExperienceCard extends Component {
     var list = [];
     list.push(
       <ListGroup.Item variant="primary">
-        <b>Responsibilities</b>
+        <b>{this.props.responsibilitiesTitle}</b>
       </ListGroup.Item>
     );
     for (var i = 0; i < this.props.responsibilities.length; i++) {
