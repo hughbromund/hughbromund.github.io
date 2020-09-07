@@ -22,8 +22,15 @@
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 5%;
   transition: 0.5s;
 }
 .card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+.techCol {
+  justify-content: center;
+  padding-left: 7px;
+  padding-right: 7px;
+  text-align: center;
 }
