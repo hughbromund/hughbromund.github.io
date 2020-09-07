@@ -16,7 +16,7 @@ export default class Projects extends Component {
     return (
       <div className={classes.wrapper}>
         <h1 className={classes.title}>
-          <strong>Personal & School Projects</strong>
+          <strong>Projects</strong>
           <hr />
         </h1>
         <div className={classes.cards}>
