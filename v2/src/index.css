@@ -10,14 +10,16 @@ code {
     monospace;
 }
 hr {
-  background-color: #00316e;
-  height: 3px;
+  /* background-color: #257af9; */
+  background-color: #257af9;
+  background-image: linear-gradient(15deg, #257af9 0%, #2426ca 100%);
+  height: 5px;
   border-radius: 20px;
   border: 0;
 }
 h1 {
-  color: #00316e;
+  color: #257af9;
 }
 i {
-  color: #00316e;
+  color: #257af9;
 }
