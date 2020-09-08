@@ -18,6 +18,7 @@ export default class AboutMe extends Component {
           <strong>About Me</strong>
           <hr />
         </h1>
+        <br />
         <div className={classes.inner}>
           <h2>
             <strong>Skills</strong>
