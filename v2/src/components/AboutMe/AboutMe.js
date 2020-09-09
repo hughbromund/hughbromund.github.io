@@ -23,114 +23,120 @@ export default class AboutMe extends Component {
           <h2>
             <strong>Skills</strong>
           </h2>
+
+          <Row xs={1} sm={1} md={2}>
+            <Col>
+              <Card className={classes.card}>
+                <Card.Body>
+                  <Card.Title>
+                    <strong>Programming Languages</strong>
+                  </Card.Title>
+                  <hr />
+                  <Row>
+                    <Col>
+                      <Row className={classes.techCol}>
+                        <FontAwesomeIcon icon={["fab", "java"]} size="2x" />
+                      </Row>
+                      <Row className={classes.techCol}>Java</Row>
+                    </Col>
+                    <Col>
+                      <Row className={classes.techCol}>
+                        <FontAwesomeIcon icon={["fab", "js"]} size="2x" />
+                      </Row>
+                      <Row className={classes.techCol}>JavaScript</Row>
+                    </Col>
+                    <Col>
+                      <Row className={classes.techCol}>
+                        <FontAwesomeIcon icon={["fab", "python"]} size="2x" />
+                      </Row>
+                      <Row className={classes.techCol}>Python</Row>
+                    </Col>
+                    <Col>
+                      <Row className={classes.techCol}>
+                        <FontAwesomeIcon icon={["fab", "swift"]} size="2x" />
+                      </Row>
+                      <Row className={classes.techCol}>Swift</Row>
+                    </Col>
+                    <Col>
+                      <Row className={classes.techCol}>
+                        <FontAwesomeIcon icon={["fab", "html5"]} size="2x" />
+                      </Row>
+                      <Row className={classes.techCol}>HTML</Row>
+                    </Col>
+                    <Col>
+                      <Row className={classes.techCol}>
+                        <FontAwesomeIcon icon={["fab", "css3"]} size="2x" />
+                      </Row>
+                      <Row className={classes.techCol}>CSS</Row>
+                    </Col>
+                    <Col>
+                      <Row className={classes.techCol}>C/C++</Row>
+                    </Col>
+                  </Row>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+              <Card className={classes.card}>
+                <Card.Body>
+                  <Card.Title>
+                    <strong>Technologies</strong>
+                  </Card.Title>
+                  <hr />
+                  <Row>
+                    <Col>
+                      <Row className={classes.techCol}>
+                        <FontAwesomeIcon icon={["fab", "react"]} size="2x" />
+                      </Row>
+                      <Row className={classes.techCol}>React</Row>
+                    </Col>
+                    <Col>
+                      <Row className={classes.techCol}>
+                        <FontAwesomeIcon icon={["fab", "node"]} size="2x" />
+                      </Row>
+                      <Row className={classes.techCol}>node</Row>
+                    </Col>
+                    <Col>
+                      <Row className={classes.techCol}>
+                        <FontAwesomeIcon icon={["fab", "npm"]} size="2x" />
+                      </Row>
+                      <Row className={classes.techCol}>npm</Row>
+                    </Col>
+                    <Col>
+                      <Row className={classes.techCol}>
+                        <FontAwesomeIcon
+                          icon={["fab", "bootstrap"]}
+                          size="2x"
+                        />
+                      </Row>
+                      <Row className={classes.techCol}>Bootstrap</Row>
+                    </Col>
+                    <Col>
+                      <Row className={classes.techCol}>
+                        <FontAwesomeIcon icon={["fab", "ubuntu"]} size="2x" />
+                      </Row>
+                      <Row className={classes.techCol}>Linux</Row>
+                    </Col>
+                    <Col>
+                      <Row className={classes.techCol}>
+                        <FontAwesomeIcon icon={["fab", "github"]} size="2x" />
+                      </Row>
+                      <Row className={classes.techCol}>GitHub CI/CD</Row>
+                    </Col>
+                    <Col>
+                      <Row className={classes.techCol}>
+                        Google Cloud Platform
+                      </Row>
+                    </Col>
+                    <Col>
+                      <Row className={classes.techCol}>Electron.js</Row>
+                    </Col>
+                  </Row>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
         </div>
-        <Row xs={1} sm={1} md={2}>
-          <Col>
-            <Card className={classes.card}>
-              <Card.Body>
-                <Card.Title>
-                  <strong>Programming Languages</strong>
-                </Card.Title>
-                <hr />
-                <Row>
-                  <Col>
-                    <Row className={classes.techCol}>
-                      <FontAwesomeIcon icon={["fab", "java"]} size="2x" />
-                    </Row>
-                    <Row className={classes.techCol}>Java</Row>
-                  </Col>
-                  <Col>
-                    <Row className={classes.techCol}>
-                      <FontAwesomeIcon icon={["fab", "js"]} size="2x" />
-                    </Row>
-                    <Row className={classes.techCol}>JavaScript</Row>
-                  </Col>
-                  <Col>
-                    <Row className={classes.techCol}>
-                      <FontAwesomeIcon icon={["fab", "python"]} size="2x" />
-                    </Row>
-                    <Row className={classes.techCol}>Python</Row>
-                  </Col>
-                  <Col>
-                    <Row className={classes.techCol}>
-                      <FontAwesomeIcon icon={["fab", "swift"]} size="2x" />
-                    </Row>
-                    <Row className={classes.techCol}>Swift</Row>
-                  </Col>
-                  <Col>
-                    <Row className={classes.techCol}>
-                      <FontAwesomeIcon icon={["fab", "html5"]} size="2x" />
-                    </Row>
-                    <Row className={classes.techCol}>HTML</Row>
-                  </Col>
-                  <Col>
-                    <Row className={classes.techCol}>
-                      <FontAwesomeIcon icon={["fab", "css3"]} size="2x" />
-                    </Row>
-                    <Row className={classes.techCol}>CSS</Row>
-                  </Col>
-                  <Col>
-                    <Row className={classes.techCol}>C/C++</Row>
-                  </Col>
-                </Row>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col>
-            <Card className={classes.card}>
-              <Card.Body>
-                <Card.Title>
-                  <strong>Technologies</strong>
-                </Card.Title>
-                <hr />
-                <Row>
-                  <Col>
-                    <Row className={classes.techCol}>
-                      <FontAwesomeIcon icon={["fab", "react"]} size="2x" />
-                    </Row>
-                    <Row className={classes.techCol}>React</Row>
-                  </Col>
-                  <Col>
-                    <Row className={classes.techCol}>
-                      <FontAwesomeIcon icon={["fab", "node"]} size="2x" />
-                    </Row>
-                    <Row className={classes.techCol}>node</Row>
-                  </Col>
-                  <Col>
-                    <Row className={classes.techCol}>
-                      <FontAwesomeIcon icon={["fab", "npm"]} size="2x" />
-                    </Row>
-                    <Row className={classes.techCol}>npm</Row>
-                  </Col>
-                  <Col>
-                    <Row className={classes.techCol}>
-                      <FontAwesomeIcon icon={["fab", "bootstrap"]} size="2x" />
-                    </Row>
-                    <Row className={classes.techCol}>Bootstrap</Row>
-                  </Col>
-                  <Col>
-                    <Row className={classes.techCol}>
-                      <FontAwesomeIcon icon={["fab", "ubuntu"]} size="2x" />
-                    </Row>
-                    <Row className={classes.techCol}>Linux</Row>
-                  </Col>
-                  <Col>
-                    <Row className={classes.techCol}>
-                      <FontAwesomeIcon icon={["fab", "github"]} size="2x" />
-                    </Row>
-                    <Row className={classes.techCol}>GitHub CI/CD</Row>
-                  </Col>
-                  <Col>
-                    <Row className={classes.techCol}>Google Cloud Platform</Row>
-                  </Col>
-                  <Col>
-                    <Row className={classes.techCol}>Electron.js</Row>
-                  </Col>
-                </Row>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
         {/* <br /> */}
         <div className={classes.inner}>
           <h2>
