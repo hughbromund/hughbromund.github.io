@@ -5,8 +5,8 @@
 .wrapper {
   padding-left: 10px;
   padding-right: 10px;
-  min-height: 100vh;
-  padding-bottom: 5%;
+  /* min-height: 100vh; */
+  padding-bottom: 3%;
 }
 .title {
   max-width: 100rem;
@@ -14,4 +14,7 @@
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.projectsRow {
+  justify-content: center;
 }

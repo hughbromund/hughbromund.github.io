@@ -65,7 +65,7 @@ export default class AboutMe extends Component {
                     </Col>
                     <Col>
                       <Row className={classes.techCol}>
-                        <FontAwesomeIcon icon={["fab", "css3"]} size="2x" />
+                        <FontAwesomeIcon icon={["fab", "css3-alt"]} size="2x" />
                       </Row>
                       <Row className={classes.techCol}>CSS</Row>
                     </Col>
