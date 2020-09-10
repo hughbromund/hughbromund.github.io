@@ -37,7 +37,7 @@ export default class ProjectCard extends Component {
     var awardsList = [];
 
     if (this.props.awardsNames !== undefined) {
-      for (var i = 0; i < this.props.awardsNames.length; i++) {
+      for (i = 0; i < this.props.awardsNames.length; i++) {
         awardsList.push(
           <Row>
             <a href={this.props.awardsLinks[i]}>

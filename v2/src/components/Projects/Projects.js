@@ -1,18 +1,18 @@
 import React, { Component } from "react";
 
-import { TEXT_COLOR } from "../../constants/Constants";
+// import { TEXT_COLOR } from "../../constants/Constants";
 
 import classes from "./Projects.module.css";
 
-import Card from "react-bootstrap/Card";
-import CardColumns from "react-bootstrap/CardDeck";
-import Button from "react-bootstrap/Button";
-import Badge from "react-bootstrap/Badge";
+// import Card from "react-bootstrap/Card";
+// import CardColumns from "react-bootstrap/CardDeck";
+// import Button from "react-bootstrap/Button";
+// import Badge from "react-bootstrap/Badge";
 import ProjectCard from "./ProjectCard";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default class Projects extends Component {
   render() {
