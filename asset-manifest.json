@@ -1,33 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.d7bfaa1a.chunk.css",
-    "main.js": "/static/js/main.064996a1.chunk.js",
-    "main.js.map": "/static/js/main.064996a1.chunk.js.map",
+    "main.css": "/static/css/main.f8376320.chunk.css",
+    "main.js": "/static/js/main.a4bbcea5.chunk.js",
+    "main.js.map": "/static/js/main.a4bbcea5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.58c4d41b.js",
     "runtime-main.js.map": "/static/js/runtime-main.58c4d41b.js.map",
     "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
-    "static/js/2.aad9451b.chunk.js": "/static/js/2.aad9451b.chunk.js",
-    "static/js/2.aad9451b.chunk.js.map": "/static/js/2.aad9451b.chunk.js.map",
+    "static/js/2.a1453e44.chunk.js": "/static/js/2.a1453e44.chunk.js",
+    "static/js/2.a1453e44.chunk.js.map": "/static/js/2.a1453e44.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4604972bcfd3d050c00a03f8d5a67c62.js": "/precache-manifest.4604972bcfd3d050c00a03f8d5a67c62.js",
+    "precache-manifest.266db48d19cd5475c6ffb928e0a977c8.js": "/precache-manifest.266db48d19cd5475c6ffb928e0a977c8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
-    "static/css/main.d7bfaa1a.chunk.css.map": "/static/css/main.d7bfaa1a.chunk.css.map",
-    "static/js/2.aad9451b.chunk.js.LICENSE.txt": "/static/js/2.aad9451b.chunk.js.LICENSE.txt",
+    "static/css/main.f8376320.chunk.css.map": "/static/css/main.f8376320.chunk.css.map",
+    "static/js/2.a1453e44.chunk.js.LICENSE.txt": "/static/js/2.a1453e44.chunk.js.LICENSE.txt",
     "static/media/Boilermake1.JPG": "/static/media/Boilermake1.696c7abf.JPG",
     "static/media/Boilermake2.JPG": "/static/media/Boilermake2.aa7d9dbb.JPG",
     "static/media/Boilermake3.jpg": "/static/media/Boilermake3.39737cc6.jpg",
     "static/media/HomePage.module.css": "/static/media/background.8469af58.jpg",
-    "static/media/finex_logo.jpg": "/static/media/finex_logo.20f5f96d.jpg",
-    "static/media/hugh.JPG": "/static/media/hugh.7dd215df.JPG",
-    "static/media/sloth_logo.jpg": "/static/media/sloth_logo.7424a966.jpg",
-    "static/media/starstats.png": "/static/media/starstats.82073242.png"
+    "static/media/hugh.JPG": "/static/media/hugh.7dd215df.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.58c4d41b.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.aad9451b.chunk.js",
-    "static/css/main.d7bfaa1a.chunk.css",
-    "static/js/main.064996a1.chunk.js"
+    "static/js/2.a1453e44.chunk.js",
+    "static/css/main.f8376320.chunk.css",
+    "static/js/main.a4bbcea5.chunk.js"
   ]
 }

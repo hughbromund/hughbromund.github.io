@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d2e8d28e0754be1f09f90e3a2df42f96",
+    "revision": "8954377e8efe80001d41133e270e0e13",
     "url": "/index.html"
   },
   {
-    "revision": "ccf645e0d5da66c61909",
+    "revision": "0a1194968357083c283b",
     "url": "/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "9d60d866ff80a0f8d368",
-    "url": "/static/css/main.d7bfaa1a.chunk.css"
+    "revision": "8df5a0fba5fcca5bf65b",
+    "url": "/static/css/main.f8376320.chunk.css"
   },
   {
-    "revision": "ccf645e0d5da66c61909",
-    "url": "/static/js/2.aad9451b.chunk.js"
+    "revision": "0a1194968357083c283b",
+    "url": "/static/js/2.a1453e44.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.aad9451b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a1453e44.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9d60d866ff80a0f8d368",
-    "url": "/static/js/main.064996a1.chunk.js"
+    "revision": "8df5a0fba5fcca5bf65b",
+    "url": "/static/js/main.a4bbcea5.chunk.js"
   },
   {
     "revision": "f1b8cb8ba2ed8ff3eb19",
@@ -44,19 +44,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/background.8469af58.jpg"
   },
   {
-    "revision": "20f5f96dccdf200ca1ee949d1012afa3",
-    "url": "/static/media/finex_logo.20f5f96d.jpg"
-  },
-  {
     "revision": "7dd215dffbf752ef803b135e8ce28810",
     "url": "/static/media/hugh.7dd215df.JPG"
-  },
-  {
-    "revision": "7424a966cfac5f2bd3c775154f525cc8",
-    "url": "/static/media/sloth_logo.7424a966.jpg"
-  },
-  {
-    "revision": "82073242bc9ed744aa1891b4c141f1b9",
-    "url": "/static/media/starstats.82073242.png"
   }
 ]);
