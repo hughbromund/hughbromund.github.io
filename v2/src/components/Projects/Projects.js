@@ -36,13 +36,22 @@ export default class Projects extends Component {
                   hosting the website once it was completed."
                 techNames={[
                   "React",
+                  "Bootstrap",
                   "JavaScript",
                   "node",
                   "HTML",
                   "CSS",
                   "npm",
                 ]}
-                techCodes={["react", "js", "node", "html5", "css3-alt", "npm"]}
+                techCodes={[
+                  "react",
+                  "bootstrap",
+                  "js",
+                  "node",
+                  "html5",
+                  "css3-alt",
+                  "npm",
+                ]}
                 repo="https://github.com/hughbromund/FINEX"
                 demo="https://finex.money"
               />
