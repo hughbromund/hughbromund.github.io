@@ -42,18 +42,19 @@ export default class HomePage extends Component {
                 children={[
                   "build awesome websites",
                   "go to Purdue University",
-                  "compete at hackathons",
+                  "compete at Hackathons",
                   "teach programming",
+                  "study Computer Science",
                 ]}
               ></TextLoop>
             </h3>
             <p style={{ "max-width": "30rem" }}>
-              I'm a full-time student studying Computer Science at Purdue
-              University. I have a passion for all things Computer Science. In
-              my free time I am a teaching assistant for a{" "}
-              <i>Fundamentals of C</i> programming class. I am also a member of
-              the <i>Purdue Autonomous Robotics Club</i> where I am working to
-              create fully autonomous drones and cars.
+              I'm a full-time student studying Computer Science at{" "}
+              <i>Purdue University</i>. I have a passion for all things Computer
+              Science. In my free time I am a <i>Teaching Assistant</i> for a
+              Fundamentals of C programming class. I am also a member of{" "}
+              <i>Hack the Future</i> where I lead a team of 6 to create projects
+              for non-profits near Purdue's campus.
             </p>
             <Button variant="primary">
               <Link

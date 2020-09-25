@@ -23,15 +23,15 @@ export default class Projects extends Component {
           <hr />
         </h1>
         <div className={classes.cards}>
-          <Row xs={1} md={2} lg={2} xl={3} className={classes.projectsRow}>
+          <Row xs={1} md={2} lg={2} xl={2} className={classes.projectsRow}>
             <Col>
               <ProjectCard
                 name="FINEX"
                 description="A team based project to build a website that helps track
                   spending and stock information"
-                role="For this project, I helped create the initial designs and then
+                role="I created the initial designs and then
                   worked on the frontend team to bring those designs to life. I
-                  specifically worked on the frontend design and functionality
+                  specifically worked on the design and functionality
                   of the budgeting feature. Additionally, I took on the task of
                   hosting the website once it was completed."
                 techNames={[
@@ -97,6 +97,33 @@ export default class Projects extends Component {
                 demo="https://adventurous-sloth-1.ue.r.appspot.com/"
                 awardsNames={["3rd Place Overall - Boilermake VII"]}
                 awardsLinks={["https://devpost.com/software/adventurous-sloth"]}
+              />
+            </Col>
+            <Col>
+              <ProjectCard
+                name="HughBromund.com"
+                description="My personal Portfolio website."
+                role="I designed and built my personal website from scratch. I realized that template sites weren't letting me create the design I wanted so I decided to make my own design."
+                techNames={[
+                  "React",
+                  "Bootstrap",
+                  "JavaScript",
+                  "node",
+                  "HTML",
+                  "CSS",
+                  "npm",
+                ]}
+                techCodes={[
+                  "react",
+                  "bootstrap",
+                  "js",
+                  "node",
+                  "html5",
+                  "css3-alt",
+                  "npm",
+                ]}
+                repo="https://github.com/hughbromund/hughbromund.github.io"
+                demo="https://hughbromund.com"
               />
             </Col>
           </Row>
