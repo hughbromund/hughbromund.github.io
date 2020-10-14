@@ -72,9 +72,9 @@ export default class Projects extends Component {
             </Col>
             <Col>
               <ProjectCard
-                name="AdventurousSloth"
-                description="A web app that helps create an itinerary based on a simple set of questions."
-                role="I came up with the initial idea for the website and then worked on the frontend team. I built the home page and the results page using React."
+                name="Market Go Brr"
+                description="A web app that shows the looks for correlation between a twitter account and changes in the stock market. Entry for VandyHacks VII."
+                role="I designed and built the frontend. I also created an automatic CI/CD pipeline that allowed the project to be built and deployed in seconds."
                 techNames={[
                   "React",
                   "JavaScript",
@@ -82,7 +82,7 @@ export default class Projects extends Component {
                   "HTML",
                   "CSS",
                   "npm",
-                  "Tripadvisor API",
+                  "Google Cloud",
                 ]}
                 techCodes={[
                   "react",
@@ -91,12 +91,12 @@ export default class Projects extends Component {
                   "html5",
                   "css3-alt",
                   "npm",
-                  "tripadvisor",
+                  "google",
                 ]}
-                repo="https://github.com/hughbromund/AdventurousSloth"
-                demo="https://adventurous-sloth-1.ue.r.appspot.com/"
-                awardsNames={["3rd Place Overall - Boilermake VII"]}
-                awardsLinks={["https://devpost.com/software/adventurous-sloth"]}
+                repo="https://github.com/hughbromund/MarketGoBrr"
+                demo="https://marketgobrr.com/"
+                awardsNames={["Finalist (Top 4) - VandyHacks VII"]}
+                awardsLinks={["https://devpost.com/software/marketgobrr"]}
               />
             </Col>
             <Col>
