@@ -51,10 +51,9 @@ export default class HomePage extends Component {
             <p style={{ "max-width": "30rem" }}>
               I'm a full-time student studying Computer Science at{" "}
               <i>Purdue University</i>. I have a passion for all things Computer
-              Science. In my free time I am a <i>Teaching Assistant</i> for a
-              Fundamentals of C programming class. I am also a member of{" "}
-              <i>Hack the Future</i> where I lead a team of 6 to create projects
-              for non-profits near Purdue's campus.
+              Science. I am also a member of <i>Hack the Future</i> where I lead
+              a team of 6 to create projects for non-profits near Purdue's
+              campus.
             </p>
             <Button variant="primary">
               <Link
