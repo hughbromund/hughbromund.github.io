@@ -266,7 +266,7 @@ export default class AboutMe extends Component {
                   location="West Lafayette, IN"
                   position="Teaching Assistant"
                   about="Assisted and helped teach 40+ students in the Fundamentals of C class"
-                  dates="Jan. 2020 - May 2020"
+                  dates="Jan. 2020 - Dec. 2020"
                   responsibilities={[
                     "Work with students one-on-one to help them with all aspects of the class",
                     "Grade Code-Standard for student homework submissions",

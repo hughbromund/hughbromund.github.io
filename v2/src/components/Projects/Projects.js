@@ -58,6 +58,35 @@ export default class Projects extends Component {
             </Col>
             <Col>
               <ProjectCard
+                name="Justifi"
+                description="In an increasingly divided world, Justifi is an app that allows users to share and discuss their opinions in a civil and public manner."
+                role="I created the frontend of our service using SwiftUI. I created all the major pages and wrote the code that handled the logic on the frontend. I also created our video recording and uploading system."
+                techNames={[
+                  "React",
+                  "Swift",
+                  "JavaScript",
+                  "node",
+                  "HTML",
+                  "CSS",
+                  "npm",
+                ]}
+                techCodes={[
+                  "react",
+                  "swift",
+                  "js",
+                  "node",
+                  "html5",
+                  "css3-alt",
+                  "npm",
+                ]}
+                awardsNames={["2nd Place Overall - BoilerMake VIII"]}
+                awardsLinks={["https://devpost.com/software/justifi"]}
+                repo="https://github.com/hughbromund/Justifi"
+                demo="https://justifiapp.com/"
+              />
+            </Col>
+            <Col>
+              <ProjectCard
                 name="StarStats"
                 description="An iOS app that displays player stats from the game BrawlStars"
                 role="I worked on a number of different components for this project. My first job was building the backend for our app. I built the backend using NodeJS and hosted it in Google Cloud. I then moved on to creating the trophy graphing system and our persistent data system."
